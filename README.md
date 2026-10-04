@@ -32,3 +32,15 @@
 ---
 ## Dokumentasi Proyek
 **Dokumentasi Lengkap (Google Drive):** [Lihat Folder Dokumentasi](https://drive.google.com/drive/folders/1S56S4ffjhQUXzCgYQLx1su-Z7I8m0f2f?usp=sharing)
+
+---
+## Link Live Preview
+**Link:**(https://adeliafebriana152-beep.github.io/pemweb-tugas1-42530007/)
+
+---
+## Link Repository
+**Link:**(https://github.com/adeliafebriana152-beep/pemweb-tugas1-42530007.git)
+
+---
+## Commit Hash Terakhir:
+(2670def)
