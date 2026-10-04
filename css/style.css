@@ -184,3 +184,152 @@ section > h2 {
   font-size: 1.15rem;
   margin-bottom: 0.5rem;
 }
+/* CARD GRID & STYLING GAMBAR*/
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.card, .price-card {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover, .price-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-color: var(--primary-gold);
+}
+
+.card article, .price-card article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%; 
+}
+
+/*Styling Ikon Materi (HTML/CSS/JS)*/
+.feature-section .card-image {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.card h3, .price-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Kartu Harga */
+.price-card p:nth-of-type(1) {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-black);
+  margin: 0.5rem 0;
+}
+
+.price-card p:nth-of-type(2) {
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.price-card .btn {
+  width: 100%;
+  margin-top: auto; /* Tombol menempel ke bawah */
+}
+
+/* Style Testimonial (Profil Bulat)*/
+.testimonial-section .card {
+  align-items: flex-start;
+  text-align: left;
+  border-left: 3px solid var(--primary-gold);
+  padding: 2rem 1.5rem;
+}
+
+.testimonial-section .card article {
+  align-items: flex-start; 
+}
+
+.testimonial-section .card-image {
+  width: 70px;       
+  height: 70px;     
+  border-radius: 50%;     /* MEMBUAT BULAT */
+  object-fit: cover;     
+  margin-bottom: 1rem;
+  border: 2px solid var(--border-color); 
+}
+.testimonial-section .card p {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+  position: relative;
+}
+
+.testimonial-section .card h3 {
+  font-size: 0.95rem;
+  color: var(--dark-black);
+  font-weight: 600;
+  margin-top: auto; 
+  text-align: left;
+}
+
+/* FOOTER & INSTAGRAM ICON */
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background-color: var(--dark-black);
+  color: #94a3b8;
+  font-size: 0.9rem;
+  border-top: 1px solid var(--dark-accent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Container untuk bagian pendaftaran */
+footer p:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.instagram-link {
+  display: inline-flex;   
+  align-items: center;
+  gap: 6px;               
+  text-decoration: none;
+  color: var(--primary-gold);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.instagram-link:hover {
+  color: var(--gold-hover);
+}
+
+.social-icon {
+  width: 18px;            
+  height: 18px;
+  object-fit: contain;
+}
+
+.social-text {
+  font-size: 0.9rem;
+  line-height: 1;
+}
